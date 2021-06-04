@@ -7,5 +7,7 @@ source /etc/default/locale
 sudo apt install fcitx-mozc -y
 sudo apt install python3 python3-dev python3-pip -y
 sudo apt install code-server -y
+sudo apt install g++ -y
+
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sudo bash
 
